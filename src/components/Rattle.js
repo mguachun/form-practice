@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import ".../assets/styles/rattle.css";
+import  { Component } from "react";
+import "../assets/styles/rattle.css";
 
-class Rattle extends React.Component {
+class Rattle extends Component {
     state = {
         likes: 0,
     };
