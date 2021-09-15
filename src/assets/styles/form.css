@@ -1,4 +1,5 @@
 .form-container h1 {
+  font-family: 'Creepster', cursive;
     text-align: center;
     letter-spacing: 1px;
     color: white;
@@ -10,6 +11,7 @@
   }
   
   label {
+    font-family: 'Creepster', cursive;
     font-weight: 700;
     margin-bottom: .15rem;
     font-size: .9rem;
@@ -25,8 +27,9 @@
   button {
     margin: .5rem 0;
     padding: .5rem 0;
-    background-color: #E1E8ED;
+    padding-left: 8px;
+    background-color: #ffffff;
     border: none;
-    font-family: 'Lato';
+    font-family: 'Creepster', cursive;
     font-size: 1rem;
   }
