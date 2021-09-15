@@ -3,9 +3,9 @@ import "../assets/styles/list.css";
 
 const RattleList = ({ rattles }) => {
   // const rattlesReversed = rattles.reverse();
-  const renderFweets = () => {
+  const renderRattles = () => {
     if (rattles && rattles.length !== 0) {
-      return rattles.map((fweet) => (
+      return rattles.map((rattle) => (
         <Rattle rattleObj={rattle} key={rattle.username} />
       ));
     } else {
