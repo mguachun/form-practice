@@ -3,9 +3,9 @@
     margin: .75rem 0;
     padding: .5rem 1.5rem;
     border-radius: 1rem;
-    border: 2px solid #1DA1F2;
+    border: 2px solid #3a0d6e;
     box-shadow:
-      0 0 0 2px white;
+      0 0 0 2px rgb(31, 7, 44);
     ;
   }
   
@@ -14,6 +14,7 @@
   }
   
   .footer {
+    font-family: 'Creepster', cursive;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
