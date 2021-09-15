@@ -12,12 +12,16 @@ class App extends Component {
   state = {
     rattles: [
       {
-      username: "EdgarAPoe",
-      rattle: "@VirginiaPoe u up?",
+      username: "Jack-Skellington",
+      rattle: "Halloween Party on 10/31/21!",
       },
       {
-        username: "VirginiaPoe",
-        rattle: "@EdgarAPoe 	:sleeping:"
+        username: "Werewolf",
+        rattle: "I'll bring Moon Pies"
+      },
+      {
+        username: "Casper",
+        rattle: "Can I bring the booooze?"
       },
     ],
   };
