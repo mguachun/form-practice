@@ -41,6 +41,7 @@ class RattleForm extends Component{
                     value={this.state.username}
                     onChange={this.handleChange}
                     />
+                    <br></br>
                         <label htmlFor="rattle">Rattle: </label>
                     <input
                     name="rattle"
@@ -49,7 +50,7 @@ class RattleForm extends Component{
                     onChange={this.handleChange}
                     />
                     <button type="submit">
-                        Rattle it! &nbsp;
+                         Rattle it! &nbsp;
                         <i className="far fa-feather-alt"></i>
                     </button>
                 </form>
